@@ -1,7 +1,7 @@
 package com.bl.moodanalyser;
 
 public class MoodAnalyserMain {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws MoodAnalysisException {
 		
 		MoodAnalyser moodNull = new MoodAnalyser(null);
 		System.out.println(moodNull.analyseMood());
